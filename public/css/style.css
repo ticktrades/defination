@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wallet-address {
+    display: flex;
+    justify-content: center;
+}
+.wallet-address input {
+    width: 60vw;
+    height: 30px;
+    max-width: 500px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+}
+
+.wallet-address button {
+    width: 30vw;
+    border: 0;
+    background: #e91e63;
+    color: wheat;
+    text-transform: uppercase;
+    margin-left: 20px;
+    max-width: 150px;
+}
+
+.portfolio-summary{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.wallet-detail{
+	margin: 25px auto;
+}
+
+.wallet-detail thead{
+	text-transform: uppercase;
+}
+.wallet-detail th, .wallet-detail td{
+	padding: 0 20px;
+}
+.number{
+	font-family: 'Source Code Pro', monospace;
+	text-align: right;
+}
